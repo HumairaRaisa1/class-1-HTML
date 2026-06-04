@@ -1,0 +1,24 @@
+h2{
+        color : rgb(54, 54, 134);
+        background-color: rgb(115, 178, 240);
+    }
+    p{
+        background-color: rgb(181, 210, 239);
+    }
+    img{
+        width: 180px;
+        background-color: rgb(208, 230, 243);
+    }
+    a{
+        color: rgb(242, 244, 245);
+        background-color: rgb(4, 92, 159);
+    }
+    ul{
+        background-color: rgb(181, 210, 239);
+    }
+    .btn{
+        background-color: rgb(4, 92, 159);
+        color: rgb(242, 244, 245);
+        padding: 10px;
+        border-radius: 5px;
+    }
