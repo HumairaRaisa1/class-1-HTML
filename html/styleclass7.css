@@ -1,0 +1,43 @@
+.btn {
+    background-color: rgb(4, 92, 159);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+gtn{
+    background-color: rgb(4, 92, 159);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Unvisited */
+.gtn:link {
+    color: white;
+}
+
+/* Visited */
+.gtn:visited {
+    color: yellow;
+}
+
+/* Hover */
+.gtn:hover {
+    background-color: rgb(2, 70, 120);
+    color: white;
+}
+
+/* While clicking */
+.gtn:active {
+    background-color: orange;
+    color: black;
+}
+
+/* Keyboard focus */
+.gtn:focus {
+    outline: 3px solid green;
+}
