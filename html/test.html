@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Verification</title>
+</head>
+
+<body>
+
+    <label for="textInput">Enter Input:</label>
+    <input type="text" id="textInput">
+
+    <button onclick="verifyText()">
+        Verify
+    </button>
+
+    <p id="result"></p>
+
+    <script>
+        function verifyText() {
+
+            // Get the text entered by the user
+            let code = document.getElementById("textInput").value;
+
+            // Variable to store the message
+            let message;
+
+            // Check the length of the input
+            if (code.length < 5) {
+                message = "Input is too short.";
+            }
+            else if (code.length > 10) {
+                message = "Input is too long.";
+            }
+            else {
+                message = "Input is valid.";
+            }
+
+            // Display the result
+            document.getElementById("result").innerHTML = message;
+        }
+    </script>
+
+</body>
+</html>
